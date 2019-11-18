@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "runner"
+version = "0.1.0"
+description = ""
+authors = ["LeeChunHao <o9558297@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+git-version = "^1.5"
+ccxt = "^1.19"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
